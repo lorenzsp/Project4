@@ -5,8 +5,9 @@ it is possible to change in the program the temperature step size and the temper
 
 main.cpp can be compiled as:
 mpic++ -O3 -o p4.x *.cpp
-and run with 2 processors as
+and run with 2 processors as:
 mpirun -n 2 p4.x
+
 four txt files are generated where in each one we calculated the following quantities:
 mean energy
 mean absulute magnetic moment
