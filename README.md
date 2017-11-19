@@ -1,5 +1,5 @@
 # Project4 Computational Physics
-The program used for the project is main.cpp, while data_analysis.cpp is a class used to generate data file.
+The program used for the project is main.cpp while data_analysis.cpp is a class used to generate data file. All these codes are in the folder program.
 
 main.cpp is a parallelized code used to analyze a phase transition in a two dimensional lattice in a range of temperature
 
@@ -10,7 +10,8 @@ mpic++ -O3 -o p4.x *.cpp
 and run with 2 processors as:
 mpirun -n 2 p4.x
 
-four txt files are generated where in each one we calculated the following quantities:
+In folder data there are four txt files generated using the code in foldeer program 
+each txt file contains the following quantities:
 mean energy;
 mean absolute magnetic moment;
 susceptibility;
