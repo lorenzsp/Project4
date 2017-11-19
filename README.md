@@ -9,11 +9,11 @@ and run with 2 processors as:
 mpirun -n 2 p4.x
 
 four txt files are generated where in each one we calculated the following quantities:
-mean energy
-mean absulute magnetic moment
-susceptibility
-heat capacity
-mean magnetic moment
+mean energy;
+mean absolute magnetic moment;
+susceptibility;
+heat capacity;
+mean magnetic moment;
 with l = 40, 60, 80, 100
 T range (2.2 , 2.3)
 T step size 0.005
