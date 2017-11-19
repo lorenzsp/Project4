@@ -1,6 +1,8 @@
 # Project4 Computational Physics
 The program used for the project is main.cpp, while data_analysis.cpp is a class used to generate data file.
+
 main.cpp is a parallelized code used to analyze a phase transition in a two dimensional lattice in a range of temperature
+
 it is possible to change in the program the temperature step size and the temperature range, monte carlo trials and lattice dimension
 
 main.cpp can be compiled as:
